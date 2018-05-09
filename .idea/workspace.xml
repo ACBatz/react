@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9d2a031-75b1-4b9d-8545-9a6f4beb2171" name="Default" comment="" />
+    <list default="true" id="e9d2a031-75b1-4b9d-8545-9a6f4beb2171" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/DailyData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/EMA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/IntraDayData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/PostgresInterface-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/PostgresInterface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/Stock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/StockAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/Stockbot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/TestData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/Tester.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/TimeValue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/Transaction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/Utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/Wallet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/WalletManager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/daily.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ztockbotz/server/misc/intra.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ztockbotz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ztockbotz.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,37 +32,29 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ztockbotz$server.coverage" NAME="server Coverage Results" MODIFIED="1523189260850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ztockbotz/server" />
+    <SUITE FILE_PATH="coverage/react$server.coverage" NAME="server Coverage Results" MODIFIED="1525837284585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ztockbotz/server" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ztockbotz/server/server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ztockbotz/static/js/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="136">
               <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Charts.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ztockbotz/server/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Charts.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ztockbotz/static/js/Charts.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -51,6 +64,25 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="daily.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ztockbotz/server/misc/daily.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="DailyData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ztockbotz/server/misc/DailyData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EMA.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ztockbotz/server/misc/EMA.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="fullstack.css" pinned="false" current-in-tab="false">
@@ -65,8 +97,8 @@
       <file leaf-file-name="Chart.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ztockbotz/static/js/Chart.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="65" column="45" lean-forward="true" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+            <state relative-caret-position="1088">
+              <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -83,15 +115,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ztockbotz/static/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ztockbotz/static/js/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,6 +127,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -155,10 +185,10 @@
     <handled-path value="$PROJECT_DIR$/ztockbotz/static/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -168,58 +198,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ztockbotz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
               <item name="ztockbotz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ztockbotz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ztockbotz" type="462c0819:PsiDirectoryNode" />
-              <item name="ztockbotz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ztockbotz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ztockbotz" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
               <item name="ztockbotz" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ztockbotz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
               <item name="ztockbotz" type="462c0819:PsiDirectoryNode" />
-              <item name="ztockbotz" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ztockbotz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ztockbotz" type="462c0819:PsiDirectoryNode" />
-              <item name="ztockbotz" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ztockbotz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ztockbotz" type="462c0819:PsiDirectoryNode" />
-              <item name="ztockbotz" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="misc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python36-32/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -231,10 +248,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\Workspace\react\ztockbotz\server\misc" />
       <recent name="B:\Workspace\ztockbotz\ztockbotz\static\css" />
     </key>
   </component>
@@ -251,25 +269,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ztockbotz" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,6 +287,25 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -346,36 +364,38 @@
     <option name="totallyTimeSpent" value="12852000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32852387" />
+      <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33407822" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +409,77 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ztockbotz/server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ztockbotz/static/js/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ztockbotz/static/css/fullstack.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ztockbotz/static/js/Chart.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="65" column="45" lean-forward="true" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ztockbotz/static/css/vis-timeline-graph2d.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16456">
+          <caret line="968" column="13" selection-start-line="968" selection-start-column="1" selection-end-line="968" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ztockbotz/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ztockbotz/static/js/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ztockbotz/static/js/Charts.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -460,16 +551,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="136">
-            <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -531,16 +613,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="136">
-            <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -555,27 +628,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="136">
-            <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ztockbotz/server/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -611,15 +668,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ztockbotz/static/js/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="136">
           <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ztockbotz/static/js/Chart.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="65" column="45" lean-forward="true" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+        <state relative-caret-position="1088">
+          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -633,6 +690,26 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ztockbotz/server/misc/daily.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ztockbotz/server/misc/DailyData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ztockbotz/server/misc/EMA.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ztockbotz/server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
